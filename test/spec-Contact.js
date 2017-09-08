@@ -3,10 +3,10 @@ var util = require ('util')
 describe ("Protractor Dashborad page", function(){
 				
     var data = require('../data/data.js');
-    var name = 'QA Analysit-'+Math.floor(Date.now() / 1000);
-    var company = 'QA Company-'+Math.floor(Date.now() / 1000);
-    var email = 'QA-'+Math.floor(Date.now() / 1000)'-test@mailinator.com';
-    var message = 'I'm not able-'+Math.floor(Date.now() / 1000);				
+    var name = "QA Analysit-"+Math.floor(Date.now() / 1000);
+    var company = "QA Company-"+Math.floor(Date.now() / 1000);
+    var email = "QA-"+Math.floor(Date.now() / 1000)+"-test@mailinator.com";
+    var message = "This message for testing purpose"+Math.floor(Date.now() / 1000);				
 	
     it('should able to contact', function(){
 		data.projectUrl();
