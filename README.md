@@ -4,9 +4,10 @@
 Automation project on CrunchBase for web. Based on Node.js, Selenium-webdriver and Protractor.
 
 ## Prerequisite
-Download node.js, Go to https://nodejs.org/en/
-Install protractor, Go to http://www.protractortest.org/#/ 
-
+1. Download node.js, Go to https://nodejs.org/en/
+2. Install protractor, Go to http://www.protractortest.org/#/ 
+3. Install jasmine2-html report, npm install -g protractor-jasmine2-html-reporter --save-dev
+ 
 ### Setup protractor
 1. Open command prompt and run these commands:
 2. npm install -g protractor
@@ -29,3 +30,14 @@ Browser: Chrome
 2. Open command prompt
 3. Enter protractor conf.js command 
 4. Press Enter
+
+## View Reports and Screenshots
+
+### View Reports
+1. Go to project
+2. Open target folder
+
+### View Screenshots
+1. Go to project
+2. Open target folder
+3. Open screenshot folder
